@@ -10,7 +10,7 @@ uploaded_file = st.file_uploader("Choose a CSV file", type="csv")
 if uploaded_file:
     df = pd.read_csv(uploaded_file)
     st.subheader("Original Data Preview")
-    st.dataframe(df.head())
+    st.dataframe(df)
 
     st.subheader("Quick Stats")
     st.write(f"Rows: {df.shape[0]} | Columns: {df.shape[1]}")
@@ -30,7 +30,7 @@ if uploaded_file:
             df.columns = df.columns.str.strip().str.lower().str.replace(" ", "_")
 
         st.success("Data cleaned!")
-        st.dataframe(df.head())
+        st.dataframe(df)
 
         csv = df.to_csv(index=False).encode("utf-8")
         st.download_button("Download Cleaned CSV", data=csv, file_name="cleaned.csv", mime="text/csv")
