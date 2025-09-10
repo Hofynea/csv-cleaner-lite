@@ -11,10 +11,16 @@ A beginner-friendly web app to upload, preview, and clean CSV files — no Excel
 - Download the cleaned file instantly
 
 ## Demo
-### Upload a CSV file & Preview the Data
-![Upload CSV](screenshots/CSV%20upload.png)
-### Choose Cleaning Options
-### Download Cleaned File
+
+### 1. Upload a CSV file & Preview the Data
+![CSV Upload](screenshots/csv_upload.png)
+### 2. Choose Cleaning Options
+![Clean Options 1](screenshots/Options1.png)
+![Clean Options 2](screenshots/Options2.png)
+![Clean Options 3](screenshots/Options3.png)
+### 3. Download Cleaned File
+![Download Example 1](screenshots/Download1.png)
+![Download Example 2](screenshots/Download2.png)
 
 ## Freelance Use Case
 
