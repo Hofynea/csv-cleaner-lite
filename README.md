@@ -51,8 +51,7 @@ No Excel formulas. No coding. Just click and go.
 - Pandas
 - Streamlit
 
-## Run Locally
+## License
 
-```bash
-pip install -r requirements.txt
-streamlit run app.py
+Personal portfolio and demonstration use only. Not open for contributions or cloning.
+___
